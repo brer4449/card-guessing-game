@@ -1,21 +1,27 @@
 import './App.css';
+import ace from './ac.png';
+import cardBack from './card-back.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hunt the Ace
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src={ace} alt="ace of clubs"/>
+            </div>
+            <div class="card-back">
+              <img src={cardBack} alt="back of card"/>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
