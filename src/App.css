@@ -29,19 +29,19 @@ main {
                         "c d";
 }
 
-.card-pos-a{
+.card-pos-1 {
   grid-area: a;
 }
 
-.card-pos-b{
+.card-pos-2 {
   grid-area: b;
 }
 
-.card-pos-c{
+.card-pos-3 {
   grid-area: c;
 }
 
-.card-pos-d{
+.card-pos-4 {
   grid-area: d;
 }
 
